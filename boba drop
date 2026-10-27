@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<h1 >This is my website</h1>
+<p>made by Tomisin</p>
+<h2> Cookie flavors</h2>
+<ul>
+Cookies and cream
+</ul>
+<ul>
+Red velvet
+</ul>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdEr-64GrSxr5WMPAenArs-qg6_PlWOdPbRsqc7KRNOKQss-qSr10vbU2T:https://baranbakery.com/wp-content/uploads/2021/11/cookies-and-cream-cookies-4.jpg&s=10" />
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_d8JKEfHsJbvWKR0_ZpHDFM4eDLP9nNPF8WINEnOg1gqTT54nevrWkBmx:https://freshaprilflours.com/wp-content/uploads/2026/01/rv-choc-chip-cookies-06.jpg&s=10"/>
+</body>
+<html>
+img {
+width:200px;
+height:300px;
+}
+body{
+text-align: center;
+font-family:'Helvetica Neue';
+background: rgb(136, 55, 136);
+color: black;
+}
+document.getElementById('go').addEventListener('click', () => {
+alert('You built this!');
+});
+
